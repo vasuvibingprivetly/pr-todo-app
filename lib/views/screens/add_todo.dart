@@ -28,7 +28,7 @@ Widget todoCard({
         children: [
           Text(
             'Task ID: ${allTodos[index]['id']}',
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.bold,
               color: Colors.blueAccent,
@@ -39,7 +39,7 @@ Widget todoCard({
             'Task: ${allTodos[index]['todo']}',
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(
+            style: const TextStyle(
               fontSize: 16,
               color: Colors.black87,
             ),
@@ -53,7 +53,7 @@ Widget todoCard({
             ),
             child: Text(
               'User ID: ${allTodos[index]['userId']}',
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 16, // Increased font size
                 color: Colors.blueAccent,
                 fontWeight: FontWeight.bold,
